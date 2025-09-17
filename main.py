@@ -179,8 +179,9 @@ neg_words = " ".join(df[df["sentiment"] == "Negative"]["clean"]).split()
 top_pos = Counter(pos_words).most_common(10)
 top_neg = Counter(neg_words).most_common(10)
 
-print("💚 Most praised aspects:", top_pos)
-print("💔 Most criticized aspects:", top_neg)
+print(" Most praised aspects:", top_pos)
+print(" Most criticized aspects:", top_neg)
+
 
 
 
